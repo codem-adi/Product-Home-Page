@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    padding: 40px 0px 0px 40px ;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-items{
+    display: flex;
+}
+.nav-items>h5{
+    padding: 10px 30px;
+    font-size: 1.2rem;
+}
+.nav-items >*:first-child{
+    color: #fe5e35;
+    
+}
+nav >*:last-child{
+    width: 200px;
+}
+nav>img{
+    width: 100px;
+    
+}
+button{
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px ;
+    background-color: #fe5e35;
+    color: #ffffff;
+}
+.intro-section{
+    display: flex;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+.left-section{
+    padding-top: 70px;
+}
+.left-section>h3{
+    font-size: 3vw;
+}
+.left-section>h3>img{
+    width: 37px;
+}
+.left-section>h1{
+    font-size: 6.1rem;
+}
+.sub-headlines{
+    margin: 50px 5px;
+}
+.sub-headline{
+    display: flex;
+    align-items: center;
+    padding: 5px 30px;
+    font-size: 15px;
+}
+.sub-headline>img{
+    
+    width: 25px;
+    background-color: #fe5e35;
+    border-radius: 50%;
+    padding: 4px;
+    margin-right: 10px;
+}
+.text{
+    width: 600px;
+    font-size: 15px;
+    color: #747474;
+}
+.action-btns{
+    margin: 30px 80px;
+    margin-top: 85px;
+    margin-bottom: 0px;
+}
+.action-btn{
+    margin: 10px;
+}
+.right-section{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+.headphone-div>*:first-child{
+    position: absolute;
+    top: 410px;
+    right: 590px;
+}
+.discount-content{
+    position: absolute;
+    top: 455px;
+    right: 610px;
+    color: #ffffff;
+}
+.discount-content>h4{
+    padding-left: 30px;
+}
+.discount-content>h1{
+    font-size: 65px;
+    align-items: center;
+}
+.headphone-div>*:nth-child(3){
+    /* width: 620px;
+    height: 400px; */
+    width: 530px;
+} 
+.dots{
+    display: flex;
+
+}
+.yellow-dot{
+    margin: 10px;
+    margin-top: 0px;
+    width: 30px;
+    height: 30px;
+    background-color: #ffee00;
+    border-radius: 50%;
+}
+.tomato-dot{
+    margin: 10px;
+    margin-top: 0px;
+    width: 30px;
+    height: 30px;
+    background-color: #fe5e35;
+    border-radius: 50%;
+}
+.black-dot{
+    margin: 20px;
+    margin-top: 0px;
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+    border-radius: 50%;
+}
+.action-btn{
+
+}
